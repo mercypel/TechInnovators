@@ -1,1 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Innovators Inc – HR Analytics Dashboard</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: #f5f7fa;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      z-index: 1000;
+      padding: 15px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #007bff;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+
+    nav a:hover {
+      color: #6610f2;
+    }
+
+    .banner {
+      background: linear-gradient(135deg, #007bff, #6610f2);
+      color: white;
+      padding: 120px 20px 80px;
+      text-align: center;
+      margin-top: 60px;
+    }
+
+    .banner h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .banner p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      color: #007bff;
+      margin-top: 40px;
+      font-size: 1.7rem;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+
+    .dashboard img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+      margin-top: 20px;
+    }
+
+    .dashboard p {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #777;
+      margin-bottom: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#performance">Performance</a></li>
+      <li><a href="#benefits">Benefits</a></li>
+      <li><a href="#insights">Insights</a></li>
+      <li><a href="#recommendations">Recommendations</a></li>
+      <li><a href="#workflow">Workflow</a></li>
+      <li><a href="#tools">Tools</a></li>
+    </ul>
+  </nav>
+
+  <div class="banner">
+    <h1>Tech Innovators Inc</h1>
+    <p>HR Analytics – Performance & Benefits Dashboard</p>
+  </div>
+
+  <div class="container">
+
+    <h2 id="overview">📌 Project Overview</h2>
+    <p>
+      Tech Innovators Inc. is a rapidly growing technology consulting firm with over 200 employees. As the company scales,
+      HR faces challenges in performance visibility, talent development, and benefits optimization. This project uses Tableau
+      to build an HR analytics solution that provides real-time insights into employee performance, engagement, and benefits usage.
+    </p>
+
+    <h2 id="performance">📊 Employee Performance Dashboard</h2>
+
+    <div class="dashboard">
+      <img src="Tech1.jpeg" alt="Employee Performance Dashboard">
+      <p>Employee Performance Dashboard</p>
+    </div>
+
+    <ul>
+      <li>Employee Count: 244</li>
+      <li>Average Performance Score: 71.17</li>
+      <li>Average Attendance: 90.63%</li>
+      <li>Top-performing location: Austin</li>
+      <li>Top-performing departments: Marketing, IT, Consulting</li>
+      <li>Training completion improves quarterly performance</li>
+    </ul>
+
+    <h2 id="benefits">🎯 Employee Benefits Dashboard</h2>
+
+    <div class="dashboard">
+      <img src="Tech2.jpeg" alt="Employee Benefits Dashboard">
+      <p>Employee Benefits Dashboard</p>
+    </div>
+
+    <ul>
+      <li>Gym Membership: Highest usage, lowest satisfaction</li>
+      <li>Health Insurance: High usage, moderate satisfaction</li>
+      <li>Paid Time Off: Lowest usage, highest satisfaction</li>
+      <li>Wellness Program: Average usage and satisfaction</li>
+    </ul>
+
+    <h2 id="insights">💡 Key Insights</h2>
+    <ul>
+      <li>Location and department strongly influence performance outcomes.</li>
+      <li>Training significantly improves quarterly performance.</li>
+      <li>Nearly half of employees have not completed training.</li>
+      <li>Benefit usage does not always correlate with satisfaction.</li>
+      <li>Paid Time Off is underutilized despite high satisfaction.</li>
+    </ul>
+
+    <h2 id="recommendations">🚀 Strategic Recommendations</h2>
+    <ul>
+      <li>Replicate successful practices from high-performing locations and departments.</li>
+      <li>Make training mandatory to improve overall performance.</li>
+      <li>Strengthen Gym Membership and Health Insurance programs.</li>
+      <li>Promote Paid Time Off to increase adoption.</li>
+      <li>Adopt department-specific benefits strategies.</li>
+    </ul>
+
+    <h2 id="workflow">🔄 Project Workflow</h2>
+    <ul>
+      <li>Data Collection (Google Sheets)</li>
+      <li>Data Cleaning & Preparation</li>
+      <li>Exploratory Data Analysis</li>
+      <li>Dashboard Development (Tableau)</li>
+      <li>Testing & Publishing</li>
+      <li>Executive Reporting</li>
+    </ul>
+
+    <h2 id="tools">🛠 Tools Used</h2>
+    <ul>
+      <li>Google Sheets</li>
+      <li>Tableau</li>
+      <li>Excel</li>
+    </ul>
+
+  </div>
+
+  <div class="footer">
+    © 2026 Tech Innovators Inc — HR Analytics Project
+  </div>
+
+</body>
+</html>
 
