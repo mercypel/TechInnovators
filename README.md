@@ -8,10 +8,10 @@ This project analyzes employee performance, benefits utilization, and demographi
 ## 📊 Dashboards
 
 ### Employee Performance Dashboard  
-![Performance Dashboard](Tech1.jpeg)
+![Performance Dashboard](Tech2.jpeg)
 
 ### Employee Benefits Dashboard  
-![Benefits Dashboard](Tech2.jpeg)
+![Benefits Dashboard](Tech1.jpeg)
 
 ---
 
